@@ -16,8 +16,14 @@ class MainApp extends StatelessWidget {
         body: GridView.count(
           crossAxisCount: 2,
           children: const [
-            ImageCard(imgSrc:"https://images.unsplash.com/photo-1606542758304-820b04394ac2"),
-            ImageCard(imgSrc:"https://images.unsplash.com/photo-1606542758304-820b04394ac2"),
+            ImageCard(
+              imgSrc:"https://images.unsplash.com/photo-1606542758304-820b04394ac2",
+              tag: "hero1",
+            ),
+            ImageCard(
+              imgSrc:"https://images.unsplash.com/photo-1606542758304-820b04394ac2",
+              tag: "hero2",
+            ),
           ],
         ),
       ),
